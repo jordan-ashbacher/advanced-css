@@ -40,3 +40,10 @@
     /* transform: rotate(1turn) */
     transform: rotate(400grad)
 }
+
+#skew:hover {
+    /* transform: skewX(30deg) */
+    /* transform: skewX(-30deg) */
+    /* transform: skewY(30deg) */
+    transform: skew(20deg, 40deg)
+}
