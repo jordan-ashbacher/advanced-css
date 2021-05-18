@@ -34,3 +34,7 @@
     /* transform: scale(2, 2); */
     transform: scale(2);
 }
+
+#rotate:hover {
+    transform: rotate(90deg)
+}
