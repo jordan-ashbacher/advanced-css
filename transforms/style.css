@@ -1,5 +1,8 @@
 .container {
-    width: 960px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 
 .move {
@@ -23,4 +26,11 @@
     /* transform: translateY(-500px); */
     transform: translate(500px, 500px);
 
+}
+
+#scale:hover {
+    /* transform: scaleX(.5); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2, 2); */
+    transform: scale(2);
 }
